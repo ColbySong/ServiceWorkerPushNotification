@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="scripts/pushNotification.js" defer></script>
+    <script type="text/javascript" src="scripts/jquery-3.2.1.min.js" defer></script>
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+    <script type="text/javascript" src="sw.js" defer></script>
     <title>Desktop Notifications with Service Worker</title>
 </head>
 <body>
-    <div id="notifRequest">Request Notification</div>
-    <div id="notifStop">Stop Notification</div>
+    <button id="notifRequest">Request Notification</button>
+    <button id="notifLoop">Fake polling Notification</button>
+    <button id="notifStop">Stop Notification</button>
 </body>
 </html>
