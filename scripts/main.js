@@ -1,6 +1,3 @@
-// hackathon notes:
-//    - make sure desktop notification is not enabled when user is currently on hootsuite page
-
 var requestTimer;
 window.onload = function(e) {
     if (!window.Notification || !('serviceWorker' in navigator)) {
